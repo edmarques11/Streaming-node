@@ -1,6 +1,5 @@
 const mysql = require('mysql')
 
-console.log(process.env)
 
 const conexao = mysql.createConnection({
     host: process.env.NODE_ENV_DATABASE_HOST,
